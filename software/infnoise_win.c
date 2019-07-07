@@ -260,6 +260,14 @@ int main(int argc, char **argv)
 		}
 	}
 
+/*
+	for (int b = 0; b < 64; b++) {
+		for (int a = 0; a < 256; a++) {
+			fputc(a, stdout);
+		}
+	}
+*/
+
 /*    if(writeDevRandom) {
         inmWriteEntropyStart(BUFLEN/8, debug);
     }
